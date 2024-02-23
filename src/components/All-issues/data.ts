@@ -1,14 +1,14 @@
 const issues = [
     {
         id: 1,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptmonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -28,7 +28,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -48,9 +48,9 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
-                language: "JavaScript",
+                language: "Javascript",
                 number: 17,
                 chat: { chat_number: 25, chat_icons: "/chat.svg" },
                 last_updated: "updated 3days ago",
@@ -61,16 +61,16 @@ const issues = [
 
     {
         id: 6,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
-                language: "JavaScript",
+                language: "Javascript",
                 number: 17,
                 chat: { chat_number: 25, chat_icons: "/chat.svg" },
                 last_updated: "updated 3days ago",
@@ -81,14 +81,14 @@ const issues = [
 
     {
         id: 7,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -101,14 +101,14 @@ const issues = [
 
     {
         id: 8,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -128,7 +128,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -148,7 +148,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -167,7 +167,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -187,7 +187,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -207,7 +207,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -227,7 +227,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -240,14 +240,14 @@ const issues = [
 
     {
         id: 14,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -267,7 +267,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -280,14 +280,14 @@ const issues = [
 
     {
         id: 16,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -300,14 +300,14 @@ const issues = [
 
     {
         id: 17,
-        header: "Improve Accessibilty for Navigation Menus",
+        header: "Improve Accessibility for Navigation Menus",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -327,7 +327,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -347,7 +347,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -367,7 +367,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -380,14 +380,14 @@ const issues = [
 
     {
         id: 21,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -407,7 +407,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -420,14 +420,14 @@ const issues = [
 
     {
         id: 23,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -447,27 +447,27 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
                 chat: { chat_number: 25, chat_icons: "/chat.svg" },
                 last_updated: "updated 3days ago",
-                icon: "/Javascipt-circle.svg"
+                icon: "/Javascript-circle.svg"
             }
         ]
     },
 
     {
         id: 25,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -487,7 +487,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -507,7 +507,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -527,7 +527,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -540,14 +540,14 @@ const issues = [
 
     {
         id: 29,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -567,7 +567,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -587,7 +587,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -607,7 +607,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -620,14 +620,14 @@ const issues = [
 
     {
         id: 33,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -640,14 +640,14 @@ const issues = [
 
     {
         id: 34,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -660,14 +660,14 @@ const issues = [
 
     {
         id: 35,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -680,14 +680,14 @@ const issues = [
 
     {
         id: 36,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -707,7 +707,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -727,7 +727,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -747,7 +747,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -767,7 +767,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -780,14 +780,14 @@ const issues = [
 
     {
         id: 41,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -808,7 +808,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -828,7 +828,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -848,7 +848,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -868,7 +868,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -888,7 +888,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -908,7 +908,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -928,7 +928,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -948,7 +948,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -968,7 +968,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -989,7 +989,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1009,7 +1009,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1022,14 +1022,14 @@ const issues = [
 
     {
         id: 62,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1049,9 +1049,9 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
-                language: "Javscript",
+                language: "Javascript",
                 number: 17,
                 chat: { chat_number: 25, chat_icons: "/chat.svg" },
                 last_updated: "updated 3days ago",
@@ -1069,7 +1069,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1089,7 +1089,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1109,7 +1109,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1129,7 +1129,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1149,7 +1149,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1162,14 +1162,14 @@ const issues = [
 
     {
         id: 69,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1189,7 +1189,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1202,14 +1202,14 @@ const issues = [
 
     {
         id: 71,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1229,7 +1229,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1249,7 +1249,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1269,7 +1269,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1289,7 +1289,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1309,7 +1309,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1329,7 +1329,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1349,7 +1349,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1362,14 +1362,14 @@ const issues = [
 
     {
         id: 79,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1389,7 +1389,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1402,14 +1402,14 @@ const issues = [
 
     {
         id: 81,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1422,14 +1422,14 @@ const issues = [
 
     {
         id: 82,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1449,7 +1449,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1469,7 +1469,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1489,7 +1489,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1509,7 +1509,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1529,7 +1529,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1549,7 +1549,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1562,14 +1562,14 @@ const issues = [
 
     {
         id: 89,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1589,7 +1589,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1609,7 +1609,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1629,7 +1629,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1642,14 +1642,14 @@ const issues = [
 
     {
         id: 91,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1662,14 +1662,14 @@ const issues = [
 
     {
         id: 92,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1682,14 +1682,14 @@ const issues = [
 
     {
         id: 93,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1709,7 +1709,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1722,14 +1722,14 @@ const issues = [
 
     {
         id: 95,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1742,14 +1742,14 @@ const issues = [
 
     {
         id: 96,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1762,14 +1762,14 @@ const issues = [
 
     {
         id: 97,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1789,7 +1789,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1809,7 +1809,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1829,7 +1829,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1849,7 +1849,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1862,14 +1862,14 @@ const issues = [
 
     {
         id: 102,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1882,14 +1882,14 @@ const issues = [
 
     {
         id: 103,
-        header: "Improve Accessibilty for Navigation Menus",
+        header: "Improve Accessibility for Navigation Menus",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1902,14 +1902,14 @@ const issues = [
 
     {
         id: 104,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1922,14 +1922,14 @@ const issues = [
 
     {
         id: 105,
-        header: "Improve Accessibilty for Navigation Menu",
+        header: "Improve Accessibility for Navigation Menu",
         company: { smallIcon: "/small-icon.svg", name: "cryptonie" },
         behaviour_text:
             "The current navigation menu does not meet accessibility standards, potentially hindering users with disabilities from navigating the website effectively. This issue aims to enhance accessibility by implementing improvements to the navigation menu.",
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -1949,7 +1949,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -1969,7 +1969,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -1989,7 +1989,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -2009,7 +2009,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -2029,7 +2029,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,
@@ -2049,7 +2049,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -2069,7 +2069,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -2089,7 +2089,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -2109,7 +2109,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -2129,7 +2129,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -2149,7 +2149,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -2169,7 +2169,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -2189,7 +2189,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Golang",
                 number: 17,
@@ -2209,7 +2209,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Typescript",
                 number: 17,
@@ -2229,7 +2229,7 @@ const issues = [
         expected_behaviour_text:
             "The navigation menu should be accessible to users with disabilities, allowing seamless navigation through the site.",
         labels: ["wallet", "open-source", "tools"],
-        labels2: [
+        issue_details: [
             {
                 language: "Javascript",
                 number: 17,

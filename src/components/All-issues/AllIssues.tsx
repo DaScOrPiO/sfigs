@@ -4,20 +4,73 @@ import style2 from "../main-content/general.module.css"
 import { useTheme } from "../contextApi/ThemeContext"
 import Image from "next/image"
 import * as Dialog from "@radix-ui/react-dialog"
-import { DiscIcon } from "@radix-ui/react-icons"
-import { useState } from "react"
+import { DiscIcon, EraserIcon } from "@radix-ui/react-icons"
+import { useEffect, useState } from "react"
+import { Data, IssueDetails, FilterTypes } from "../types/types"
 
-export default function AllIssues(props) {
+interface AllIssuesProps {
+    setSearchParams: React.Dispatch<React.SetStateAction<any>>
+    issueList: Data[]
+    issues: Data[]
+    visibleIssues: Array<any>
+    setIssueList: React.Dispatch<React.SetStateAction<any>>
+    setCurrentPage: React.Dispatch<React.SetStateAction<any>>
+    searchParams: {
+        language: string
+        organisation: string
+        type: string
+        recent: string
+    }
+}
+
+interface VisibleIssues {
+    id: number
+    header: string
+    company: { smallIcon: string; name: string }
+    behaviour_text: string
+    expected_behaviour_text: string
+    labels: string[]
+    issue_details: IssueDetails[]
+}
+
+export default function AllIssues(props: AllIssuesProps) {
     const { isDarkMode } = useTheme()
-    const [expandText, setExpandText] = useState<boolean[]>([])
+    const [expandText, setExpandText] = useState<{ [key: number]: boolean }>({})
+    const [showClearBtn, setShowClearBtn] = useState<boolean>(false)
 
     const handleReadMorebtnClick = (index: number) => {
-        setExpandText((prev) => [
-            ...prev.slice(0, index),
-            !prev[index],
-            ...prev.slice(index + 1)
-        ])
+        setExpandText((prev) => ({
+            ...prev,
+            [index]: !prev[index]
+        }))
     }
+
+    const clearFilterSearch = () => {
+        props.setSearchParams((prev: FilterTypes) => ({
+            ...prev,
+            language: "",
+            recent: "",
+            organisation: "",
+            type: ""
+        }))
+    }
+
+    const showClear_btn = () => {
+        if (
+            props.searchParams.language !== "" ||
+            props.searchParams.organisation !== "" ||
+            props.searchParams.recent !== "" ||
+            props.searchParams.type !== ""
+        ) {
+            setShowClearBtn(true)
+        } else {
+            setShowClearBtn(false)
+        }
+    }
+
+    useEffect(() => {
+        showClear_btn()
+    }, [props.searchParams])
 
     return (
         <div
@@ -25,7 +78,18 @@ export default function AllIssues(props) {
                 isDarkMode ? style.issues_dark : style.issues_light
             }`}
         >
-            {props.visibleIssues.map((item, index) => (
+            {showClearBtn && (
+                <button
+                    className={`${isDarkMode ? style.button_dark : style.button_light} flex fixed lg:right-48 right-9 bottom-8 rounded-xl px-2 py-2 justify-between items-center`}
+                    onClick={clearFilterSearch}
+                >
+                    Clear
+                    <span className="mx-2">
+                        <EraserIcon />
+                    </span>
+                </button>
+            )}
+            {props.visibleIssues.map((item: VisibleIssues, index: number) => (
                 <a
                     key={item.id}
                     className={`${style.issues_item} my-6 w-full block`}
@@ -122,7 +186,7 @@ export default function AllIssues(props) {
                                     isDarkMode
                                         ? style.issues_button_dark
                                         : style.issues_button_light
-                                } md:mx-5 mx-2 mt-2`}
+                                } mx-2 mt-2`}
                             >
                                 {label}
                             </button>
@@ -130,7 +194,7 @@ export default function AllIssues(props) {
                     </div>
 
                     <div className="flex items-center mt-4">
-                        {item.labels2.map((label, i) => (
+                        {item.issue_details.map((label, i) => (
                             <div key={i} className="flex flex-wrap">
                                 <span className="flex lg:text-lg text-sm items-center">
                                     <Image

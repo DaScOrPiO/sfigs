@@ -4,8 +4,24 @@ import Image from "next/image"
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons"
 import { useTheme } from "../contextApi/ThemeContext"
 import { useEffect } from "react"
+import { Data } from "../types/types"
+import { useSession } from "../SessionProvider/sessionProvider"
+interface NavProps {
+    setSearchParams: React.Dispatch<React.SetStateAction<any>>
+    issueList: Data[]
+    issues: Array<any>
+    setIssueList: React.Dispatch<React.SetStateAction<any>>
+    setCurrentPage: React.Dispatch<React.SetStateAction<any>>
+    searchParams: {
+        language: string
+        organisation: string
+        type: string
+        recent: string
+    }
+}
 
-export default function Navigation(props) {
+export default function Navigation(props: NavProps) {
+    const { session } = useSession()
     const { isDarkMode } = useTheme()
     const inputRef = useRef<HTMLInputElement>(null)
 
@@ -16,7 +32,7 @@ export default function Navigation(props) {
         setNavInput((prev: any) => ({ ...prev, [name]: value }))
     }
 
-    const enter_keyAction = (item) => {
+    const enter_keyAction = (item: string) => {
         const languages = ["Golang", "Javascript", "Typescript", "Rust"]
         const organisations = ["Galoy", "Chainlab", "Aremxy Plug", "Btrust"]
         const types = ["P2p", "Wallet", "Tools", "Education"]
@@ -45,28 +61,28 @@ export default function Navigation(props) {
             )
 
             if (searchByLanguage) {
-                props.setSearchParams((prev) => ({
+                props.setSearchParams((prev: Array<string>) => ({
                     ...prev,
                     language: searchByLanguage.toString()
                 }))
             }
 
             if (searchByOrganisations) {
-                props.setSearchParams((prev) => ({
+                props.setSearchParams((prev: Array<string>) => ({
                     ...prev,
                     organisation: searchByOrganisations.toString()
                 }))
             }
 
             if (searchByTypes) {
-                props.setSearchParams((prev) => ({
+                props.setSearchParams((prev: Array<string>) => ({
                     ...prev,
                     type: searchByTypes.toString()
                 }))
             }
 
             if (searchByRecent) {
-                props.setSearchParams((prev) => ({
+                props.setSearchParams((prev: Array<string>) => ({
                     ...prev,
                     recent: searchByRecent.toString()
                 }))
@@ -109,7 +125,7 @@ export default function Navigation(props) {
                                 isDarkMode
                                     ? style.nav_search_input_dark
                                     : style.nav_search_input_light
-                            } px-6 py-1 rounded-md text-black`}
+                            } px-12 py-2 rounded-md text-black`}
                             onChange={handleNavSearch}
                             value={navInput.search}
                         />
@@ -117,9 +133,7 @@ export default function Navigation(props) {
                     <span className="lg:mx-4 mx-1">
                         <picture className="flex w-full md:w-auto items-end justify-end">
                             <Image
-                                src={
-                                    props.userInfo?.user.image || "/vercel.svg"
-                                }
+                                src={session.user.image || "/vercel.svg"}
                                 alt="Vercel Logo"
                                 className="rounded-full"
                                 width={48}

@@ -1,31 +1,17 @@
-"use client"
 import style from "../main-content/index.module.css"
-import { useEffect, useState, useRef } from "react"
+import { useEffect, useState } from "react"
 import AllIssues from "../All-issues/AllIssues"
 import Navigation from "../navigation/Navigation"
 import Footer from "../footer/footer"
 import Small_nav from "../small_navigation/small_nav"
+import { Data, IssueDetails, Issue } from "../types/types"
 
-export default function Body(props) {
-    interface Issue {
-        id: number
-        header: string
-        company: { smallIcon: string; name: string }
-        behaviour_text: string
-        expected_behaviour_text: string
-        labels: string[]
-        labels2: {
-            language: string
-            number: number
-            chat: {
-                /*...*/
-            }
-            last_updated: string
-            icon: string
-        }[]
-    }
+interface BodyProps {
+    data: Data[]
+}
+
+export default function Body(props: BodyProps) {
     const [renderIssues, setRenderIssues] = useState<Issue[]>([])
-
     const [currentPage, setCurrentPage] = useState(1)
     const itemsPerPage = 10
 
@@ -35,9 +21,10 @@ export default function Body(props) {
 
     const totalPages = Math.ceil(renderIssues.length / itemsPerPage)
 
-    const handlePageChange = (page) => {
+    const handlePageChange = (page: number) => {
         setCurrentPage(page)
     }
+
     const [searchFilter, setSearchFilter] = useState({
         language: "",
         organisation: "",
@@ -45,14 +32,14 @@ export default function Body(props) {
         recent: ""
     })
 
-    // dummy filter feature to be updated with real endpoint
+    // dummy filter feature to be updated with a real endpoint
     const filter = () => {
         let filtered = props.data
 
         if (searchFilter?.language !== "") {
             filtered = filtered?.filter((item) =>
-                item.labels2.some(
-                    (el) =>
+                item.issue_details.some(
+                    (el: IssueDetails) =>
                         el.language?.toLowerCase() ===
                         searchFilter?.language?.toLowerCase()
                 )
@@ -70,7 +57,7 @@ export default function Body(props) {
         if (searchFilter.type !== "") {
             filtered = filtered?.filter((item) =>
                 item.labels.some(
-                    (el) =>
+                    (el: string) =>
                         el.toLowerCase() === searchFilter?.type?.toLowerCase()
                 )
             )
@@ -84,18 +71,9 @@ export default function Body(props) {
         filter()
     }, [searchFilter])
 
-    useEffect(() => {
-        console.log(renderIssues)
-    }, [renderIssues])
-
-    useEffect(() => {
-        setRenderIssues(props.data)
-    }, [])
-
     return (
         <>
             <Navigation
-                userInfo={props.sessionInfo}
                 issues={props.data}
                 searchParams={searchFilter}
                 setSearchParams={setSearchFilter}
@@ -117,6 +95,7 @@ export default function Body(props) {
                         searchParams={searchFilter}
                         issues={props.data}
                         issueList={renderIssues}
+                        setSearchParams={setSearchFilter}
                         setIssueList={setRenderIssues}
                         setCurrentPage={setCurrentPage}
                         visibleIssues={visibleIssues}
@@ -124,12 +103,15 @@ export default function Body(props) {
                 </div>
             </div>
             <Footer
-                issues={props.data}
+                searchParams={searchFilter}
+                setSearchParams={setSearchFilter}
                 issueList={renderIssues}
+                issues={props.data}
                 setIssueList={setRenderIssues}
-                totalPages={totalPages}
-                changePage={handlePageChange}
                 currentPage={currentPage}
+                totalPages={totalPages}
+                setCurrentPage={setCurrentPage}
+                changePage={handlePageChange}
             />
         </>
     )
