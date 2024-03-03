@@ -14,6 +14,14 @@
     --modal-links: #898989;
     --issues-text-color: #414040;
     --footer-text-color: #ffecb8;
+    --nav-bg-color: #f9f6ee;
+    --text-color: #222222;
+    --btn-bg: #ffecb8;
+    --icon-bg: invert(0%);
+    --modal-bg: #fafafae5;
+    --modal-links: #898989;
+    --issues-text-color: #939393;
+    --footer-text-color: #ffecb8;
 }
 
 @media (prefers-color-scheme: dark) {
